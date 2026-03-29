@@ -1,19 +1,19 @@
-
-# D365 Environment Validator
+# D365 Environment Validator 🚀
 
 ## 🚨 Problem
 
-Plugins and flows work in DEV but fail in PROD due to:
+Dynamics 365 solutions often work in DEV but fail in PROD due to:
 
 - Missing environment variables
-- Connection reference issues
-- Security role mismatches
+- Connection reference mismatches
+- Security role differences
+- Plugin configuration gaps
 
 ---
 
 ## ✅ Solution
 
-This tool validates environment configuration before deployment.
+This project validates environment configuration before deployment to prevent failures.
 
 ---
 
@@ -21,17 +21,27 @@ This tool validates environment configuration before deployment.
 
 - Environment variable validation
 - Connection reference checks
-- Security validation (planned)
 - Deployment checklist
+- Extensible validation engine (WIP)
 
 ---
 
-## 🚀 Use Case
+## 🧠 Why This Matters
 
-Run validation before deploying solution from DEV → PROD.
+Environment drift is one of the biggest causes of production issues.
+
+This tool helps ensure consistency across DEV → UAT → PROD.
+
+---
+
+## 📁 Project Structure
+
+- `/src` → Core validation logic
+- `/docs` → Architecture & design
+- `/checklists` → Deployment best practices
 
 ---
 
 ## 📌 Status
 
-Work in progress (MVP)
+🚧 Work in Progress (MVP Stage)
